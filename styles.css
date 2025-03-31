@@ -14,7 +14,6 @@ body{
 .info, 
 .quote, 
 .sign{
-    border: 1px solid darkblue;
     display: flex;
     justify-content: center;
 }
@@ -23,7 +22,6 @@ body{
 .info-container,
 .quote-container,
 .sign-containter{
-    border: 1px solid red;
     width: 80%;
 }
 
@@ -33,12 +31,7 @@ body{
     color: #ffffff;
 
 }
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-}
+
 /* hero */
 .hero-container{
     min-height: 680px;
@@ -143,6 +136,7 @@ h2{
 }
 .image-one{
     border-radius: 20px;
+
 }
 .boxes-text{
     font-size: 16px;
@@ -179,4 +173,34 @@ figcaption{
     font-weight: 800;
     color:#1F2937;
     font-size: 20px;
+}
+
+/*sign up*/
+.sign{
+    min-height: 450px;
+    align-items: center;
+}
+.sign-container{
+    background-color: #3882f6;
+    color: #ffffff;
+    height: 200px;
+    width: 80%; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 20px;
+    padding: 20px; 
+}
+
+.sign-button{
+    border:2px solid white
+}
+
+
+/*footer*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
