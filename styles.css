@@ -147,3 +147,36 @@ h2{
 .boxes-text{
     font-size: 16px;
 }
+
+
+/*quote*/
+
+.quote{
+    background-color: #E5e7eb;
+
+}
+
+.quote-container{
+    MIN-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qto{
+    width: 50%;
+
+}
+
+blockquote{
+    font-size: 36px;
+    font-weight: 280;
+    color: #1F2937;
+}
+
+figcaption{
+    text-align: right;
+    font-weight: 800;
+    color:#1F2937;
+    font-size: 20px;
+}
